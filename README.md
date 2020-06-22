@@ -1,6 +1,9 @@
 # digitalet-progate
-Tugas Digitalent Kominfo // Progate
+Tugas Digitalent Kominfo // Progate.
 Buat Web Project 1 menggunakan HTML, CSS, JS native.
+
+Kelompok 29
+-Ardi Permana 
 
 Preview 
 
