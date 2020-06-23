@@ -1,0 +1,51 @@
+@media screen and (max-width: 1000px) {
+	.jumbotron
+	nav {
+		height: 45px;
+		position: static;
+	}
+	.mobile {
+		display: block;
+	}
+
+	.login {
+		padding: 7px 10px;
+	}
+	.navbar ul {
+		display: none;
+	}
+	.navbar .nav-item:hover {
+		color: #1a1a1a;
+	}
+
+}
+@media screen and (max-width: 600px) {
+	.jumbotron {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.jumbotron, .jumbotron .title, .jumbotron .form-register {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.jumbotron .title, .jumbotron .form-register {
+		width: 90%;
+		margin-top: 40px;
+	}
+	.describe-skill {
+		display: block;
+	}
+	.describe-skill .skill-item {
+		margin-bottom: 20px;
+	}
+	.layout-contact {
+		display: block;
+	}
+	.form-contact, .address{
+		width: 100%;
+	}
+	footer ul a {
+		padding: 6px 14px;
+	}
+} 
