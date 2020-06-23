@@ -44,6 +44,7 @@ body {
 		background-color: #fff;
 		height: 50px;
 		box-shadow: 1px 1px 12px -4px black;
+		z-index: 9;
 	}
 	nav .logo {
 		float: left;
