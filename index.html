@@ -5,23 +5,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Latihan Progate</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
-		<nav class="clear">
+		<nav>
 			<div class="mobile">
 				<div></div>
 				<div></div>
 				<div></div>
 			</div>
 			<div class="navbar">
-				<ul class="active">
+				<ul class="nav-top">
 					<li><a href="" class="nav-item">HOME</a></li>
 					<li><a href="" class="nav-item">ABOUT</a></li>
 					<li><a href="" class="nav-item">CONTACT</a></li>
-					<li><a href="" class="login">LOGIN</a></li>
 				</ul>
+			</div>
+			<div class="btn-login">
+				<a href="" class="login">LOGIN</a>
 			</div>
 		</nav>
 		<div class="jumbotron">
@@ -81,23 +84,23 @@
 						<h4>Lets Talk About Your Idea</h4>
 						<form action="" method="post">
 							<div class="contact-item name">
-								<input type="text" name="name" placeholder="Name*">
+								<input type="text" name="name" placeholder="Name*" autocomplete="off">
 							</div>
 							<div class="contact-item email">
-								<input type="email" name="email" placeholder="Email*">
+								<input type="email" name="email" placeholder="Email*" autocomplete="off">
 							</div>
 							<div class="contact-item tel">
-								<input type="tel" name="phone" placeholder="Phone*">
+								<input type="tel" name="phone" placeholder="Phone*" autocomplete="off">
 							</div>
 							<div class="contact-item dekripsi">
-								<textarea></textarea>
+								<textarea placeholder="deskripsi pertanyaan"></textarea>
 							</div>
 							<div class="btn-contact">
 								<button type="submit">Send Message</button>
 							</div>
 						</form>
 					</div>
-					<div class="addres" >
+					<div class="address" >
 						<div class="address-item">
 							<h4>Office Location</h4>
 							<div class="layout-address">
@@ -132,10 +135,8 @@
 			</section>
 		</main>
 		<footer>
-			<p>LOGO</p>
 			<ul>
 				<li><a href="#">HOME</a></li>
-				<li><a href="#">BLOG</a></li>
 				<li><a href="#">ABOUT</a></li>
 				<li><a href="#">FAQ</a></li>
 				<li><a href="#">CONTACT</a></li>
@@ -148,5 +149,6 @@
 		<div class="kelompok">
 			B29
 		</div>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
