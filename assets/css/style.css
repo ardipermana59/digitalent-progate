@@ -43,6 +43,7 @@ body {
 		width: 100%;
 		background-color: #fff;
 		height: 50px;
+		box-shadow: 1px 1px 12px -4px black;
 	}
 	nav .logo {
 		float: left;
