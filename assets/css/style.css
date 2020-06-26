@@ -362,13 +362,3 @@ footer a:active {
 	font-size: 13px;
 }
 /* end footer */
-
-.kelompok {
-	width: 100px;
-	text-align: center;
-	font-weight: bold;
-	padding: 20px;
-	position: fixed;
-	background-color: rgba(0,0,0,.4);
-	top: 50%;
-}
